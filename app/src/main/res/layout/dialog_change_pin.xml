@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/etOldPin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/old_pin"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNewPin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/new_pin"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

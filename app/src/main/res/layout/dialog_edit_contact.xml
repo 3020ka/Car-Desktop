@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivContactAvatarPreview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_avatar"
+        android:contentDescription="@string/pick_avatar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_avatar_placeholder" />
+
+    <Button
+        android:id="@+id/btnPickAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/pick_avatar"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/etContactName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etContactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

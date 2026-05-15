@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/pin_setup_title"
+        android:textColor="@color/text_primary"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPinFirst"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_edit"
+        android:gravity="center_vertical"
+        android:hint="@string/pin_first_input"
+        android:maxLength="4"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/etPinSecond"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_edit"
+        android:gravity="center_vertical"
+        android:hint="@string/pin_second_input"
+        android:maxLength="4"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnSavePin"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_douyin_button"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/text_primary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
